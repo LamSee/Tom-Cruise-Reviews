@@ -68,3 +68,7 @@ h4{
 .thumbnail{
     position: sticky;
 }
+video{
+    width: 100%;
+    height: auto;
+}
