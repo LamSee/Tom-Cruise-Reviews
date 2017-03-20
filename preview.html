@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tom Cruise Reviews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- fontawesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- my stylesheet -->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+       <!-- background -->
+<div class="background">
+    <img src="assets/BG.jpg" alt="" />
+</div>
+<div class="content">
+<!-- navigation -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Tom Cruise Reviews / Previews</a>
+<!-- collapsable menu trigger -->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rev.html">Reviews</a></li>
+                    <li><a href="chart.html">Chart</a></li>
+                    <li><a href="preview.html">Previews</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+<!-- jumbotron -->
+    <div class="container">
+        <div class="row">
+                    <div class="col-lg-12">
+                <h2 class="page-header">Previews</h2>
+            </div>
+        <div class="jumbotron">
+        <h1>Coming Soon in 2017</h1>
+            <!-- carousel -->
+<div class="container">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <a href="https://www.youtube.com/watch?v=hX0WA6yIZ7I">
+      <img src="assets/injustice.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>Injustice 2</h3>
+      </div>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="https://www.youtube.com/watch?v=m5sJrLw6X0o">
+      <img src="assets/southpark.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>South Park: The Fractured but Whole</h3>
+        </div>
+        </a>
+    </div>
+      
+      <div class="item">
+          <a href="https://www.youtube.com/watch?v=fM8I-OXJYCc">
+      <img src="assets/crackdown.png" width=100%>
+        <div class="carousel-caption">
+        <h3>Crackdown 3</h3>
+        </div>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="https://www.youtube.com/watch?v=gmA6MrX81z4">
+      <img src="assets/rdr2.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>Red Dead Redemption 2</h3>
+      </div>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="https://www.youtube.com/watch?v=8UExdrEGZ4Y">
+      <img src="assets/cuphead.png" width=100%>
+        <div class="carousel-caption">
+        <h3>Cuphead</h3>
+      </div>
+        </a>
+    </div>
+      
+    <div class="item">
+        <a href="https://www.youtube.com/watch?v=RTXbOh8urp4">
+      <img src="assets/outlast.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>Outlast 2</h3>
+      </div>
+        </a>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+            </div>
+        </div>
+    </div>
+<!-- footer 
+    <div class="navbar navbar-default navbar-static-bottom">
+        <div class="container">
+        <p class="navbar-text">Site built by Sam Lee</p>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-warning pull-right">Contact Us"</a>
+        </div>
+    </div> -->
+</div>
+<!-- modal -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- modal form starts -->
+                <form class="form-horizontal">
+                    <div class="modal-header"> <!-- header -->
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="modal-body"><!-- body -->
+                        <div class="form-group"> <!-- name -->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- email -->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- message -->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-success" type="submit">Submit</a>
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    </div>
+                </form>
+             <!-- modal form ends -->
+            </div>
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tom Cruise Reviews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- fontawesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- my stylesheet -->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+       <!-- background -->
+<div class="background">
+    <img src="assets/BG.jpg" alt="" />
+</div>
+<div class="content">
+<!-- navigation -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Tom Cruise Reviews / Reviews</a>
+<!-- collapsable menu trigger -->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rev.html">Reviews</a></li>
+                    <li><a href="chart.html">Chart</a></li>
+                    <li><a href="preview.html">Previews</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+<!-- about panel -->
+    <div class="container">
+        <div class="row">
+                        <div class="col-lg-12">
+                <h2 class="page-header">Reviews</h2>
+            </div>
+            <div class="col-lg-9">
+                <!-- First Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/bf1.jpg" alt="Article One">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Battlefield 1</h3>
+                    <button onclick="functionBattlefield()">Genre</button>
+
+                    <div id="battlefield">
+                        First-person Shooter
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Second Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/ds3.jpg" alt="Article Two">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Dark Souls 3</h3>
+                    <button onclick="functionSouls()">Genre</button>
+
+                    <div id="souls">
+                        Action-RPG
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Third Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/dishonored.jpg" alt="Article Three">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Dishonored 2</h3>
+                    <button onclick="functionDishonored()">Genre</button>
+
+                    <div id="dishonored">
+                        Action-Stealth
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Fourth Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/ffxv.jpg" alt="Article Four">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Final Fantasy XV</h3>
+                    <button onclick="functionFinal()">Genre</button>
+
+                    <div id="ffxv">
+                        Action-RPG
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Fifth Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/forhonor.jpg" alt="Article Five">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>For Honor</h3>
+                    <button onclick="functionHonor()">Genre</button>
+
+                    <div id="forhonor">
+                        Fighting
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Sixth Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/overwatch.jpg" alt="Article Six">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Overwatch</h3>
+                     <button onclick="functionOverwatch()">Genre</button>
+
+                    <div id="overwatch">
+                        First-person Shooter
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Seventh Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/residentevil.png" alt="Article Seven">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Resident Evil VII</h3>
+                     <button onclick="functionResident()">Genre</button>
+
+                    <div id="resident">
+                        Survival Horror
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Eighth Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/tf2.jpg" alt="Article Eight">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Titanfall 2</h3>
+                     <button onclick="functionTitanfall()">Genre</button>
+
+                    <div id="titanfall">
+                        First-person Shooter
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+                <!-- Ninth Thumbnail -->
+               <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="assets/uncharted.jpg" alt="Article Nine">
+                <div class="caption">
+                <div class="thumbtitle">
+                <h3>Uncharted 4</h3>
+                    <button onclick="functionUncharted()">Genre</button>
+
+                    <div id="uncharted">
+                        Action-Adventure
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+            <!-- sidebar -->
+    <div class="sidebar">
+                <div class="col-lg-3">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading"><i class="fa fa-fighter-jet" aria-hidden="true"></i> Best Action Game</h4>  
+                            <p>Uncharted 4</p>
+                        </a><a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading"><i class="fa fa-eye-slash" aria-hidden="true"></i> Best Stealth Game</h4>  
+                            <p>Dishonored 2</p>
+                        </a><a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading"><i class="fa fa-bullseye" aria-hidden="true"></i> Best FPS Game</h4>  
+                            <p>Overwatch</p>
+                        </a><a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading"><i class="fa fa-bar-chart" aria-hidden="true"></i> Best RPG Game</h4>  
+                            <p>Dark Souls 3</p>
+                        </a>
+                    </div>
+                </div>
+    </div>
+    </div>
+    </div>
+
+<!-- footer 
+    <div class="navbar navbar-default navbar-static-bottom">
+        <div class="container">
+        <p class="navbar-text">Site built by Sam Lee</p>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-warning pull-right">Contact Us"</a>
+        </div>
+    </div> -->
+    </div>
+<!-- modal -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- modal form starts -->
+                <form class="form-horizontal">
+                    <div class="modal-header"> <!-- header -->
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="modal-body"><!-- body -->
+                        <div class="form-group"> <!-- name -->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- email -->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- message -->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><!-- footer -->
+                        <a class="btn btn-success" type="submit">Submit</a>
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    </div>
+                </form>
+             <!-- modal form ends -->
+            </div>
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/buttons.js"></script>
+</body>
+</html>

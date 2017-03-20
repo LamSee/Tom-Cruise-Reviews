@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tom Cruise Reviews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- fontawesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- my stylesheet -->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- background -->
+<div class="background">
+    <img src="assets/BG.jpg" alt="" />
+</div>
+<div class="content">
+<!-- navigation -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Tom Cruise Reviews / Home</a>
+<!-- collapsable menu trigger -->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rev.html">Reviews</a></li>
+                    <li><a href="chart.html">Chart</a></li>
+                    <li><a href="preview.html">Previews</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+
+
+<!-- carousel -->
+<div class="container">
+    
+                <div class="col-lg-12">
+                <h2 class="page-header">Services Panels</h2>
+            </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <a href="article_uncharted.html">
+      <img src="assets/uncharted.jpg" width=100% href="article_uncharted.html">
+        <div class="carousel-caption">
+        <h3>Uncharted 4</h3>
+      </div>
+    </a>
+    </div>
+
+    <div class="item">
+        <a href="article_finalfantasy.html">
+      <img src="assets/ffxv.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>Final Fantasy XV</h3>
+        </div>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="article_overwatch.html">
+      <img src="assets/overwatch.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>Overwatch</h3>
+      </div>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="article_dishonored.html">
+      <img src="assets/dishonored.jpg" width=100%>
+        <div class="carousel-caption">
+        <h3>Dishonored 2</h3>
+      </div>
+        </a>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<!-- grid system -->
+ <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+      <img src="assets/ds3.jpg" alt="Article One">
+                <div class="caption">
+        <h3>Dark Souls III</h3>
+        <p>The Ashen One rises and must return three other previous Lords of Cinder, as well as Prince Lothric, back to their thrones in the Firelink Shrine in order to link the flame.</p>
+                    <p>
+                        <a href="article_darksouls.html" class="btn btn-danger" role="button">View</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+      <img src="assets/bf1.jpg" alt="Article Two">
+                <div class="caption">
+        <h3>Battlefield 1</h3>
+        <p>Similar to previous entries in the series, Battlefield 1 is a first-person shooter that emphasizes teamwork. The game is set in the period of World War I, and is inspired by historic events.</p>
+                    <p>
+                        <a href="article_battlefield.html" class="btn btn-danger" role="button">View</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+      <img src="assets/tf2.jpg" alt="Article Three">
+                <div class="caption">
+        <h3>Titanfall 2</h3>
+        <p>At the edge of the Frontier, a Titan and a common footsoldier, Jack Cooper, are unexpectedly thrown together in a desperate attempt to prevent a catastrophic event.</p>
+                    <p>
+                        <a href="article_titanfall.html" class="btn btn-danger" role="button">View</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- footer 
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+        <p class="navbar-text">Site built by Sam Lee</p>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-warning pull-right">Contact Us</a>
+        </div>
+    </div>
+-->
+    </div>
+<!-- modal -->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- modal form starts -->
+                <form class="form-horizontal">
+                    <div class="modal-header"> <!-- header -->
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="modal-body"><!-- body -->
+                        <div class="form-group"> <!-- name -->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- email -->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group"> <!-- message -->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><!-- footer -->
+                        <a class="btn btn-success" type="submit">Submit</a>
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    </div>
+                </form>
+             <!-- modal form ends -->
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

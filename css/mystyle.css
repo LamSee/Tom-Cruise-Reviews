@@ -1,0 +1,70 @@
+
+/* about page mods */
+.page-header{
+    margin-top: 0;
+}
+
+.panel-body{
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+
+.featuredImg{
+    padding-bottom: 15px;
+}
+
+.background{
+ position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.content{
+   position: relative;
+    top: 30%;
+    z-index: 2;
+
+}
+#myCarousel{
+    padding-bottom: 10px;
+}
+.rating{
+    text-align: right;   
+}
+.ArticleImg{
+    padding-bottom: 15px;   
+}
+.sub{
+    color: #ff4242;   
+}  
+.foreground{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #eaedf2;
+}
+.chart-title{
+    color: black;
+}
+h4{
+    color: #ff4242;
+}
+.carousel-caption{
+    color: white;
+}
+.thumbtitle{
+    text-align: center;
+    text-align: top;
+}
+.sidebar{
+    position: relative;
+}
+.thumbnail{
+    position: sticky;
+}
